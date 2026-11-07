@@ -1,0 +1,8 @@
+KYRO INTRO — MILKER FONT
+
+The exact Milker typeface supplied for this project is included as:
+  fonts/Milker.otf
+
+The entrance heading loads this local file through the @font-face rule in style.css.
+To replace it later, overwrite this file with another Milker OTF using the same filename.
+Only the entrance heading uses this font; the rest of the website typography is unchanged.
