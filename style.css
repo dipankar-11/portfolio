@@ -763,6 +763,10 @@ main {
   margin-bottom: 24px;
 }
 
+.flagship-project-link {
+  margin-bottom: 24px;
+}
+
 .flagship-metrics-row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
@@ -906,6 +910,18 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.project-preview {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  margin-bottom: 18px;
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  background: var(--bg-surface);
 }
 
 .subgrid-top {
@@ -1066,6 +1082,14 @@ main {
 .bento-footer {
   border-top: 1px solid var(--border-subtle);
   padding-top: 14px;
+}
+
+.bento-project-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
 }
 
 .bento-tags {
